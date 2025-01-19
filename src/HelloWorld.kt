@@ -1,6 +1,20 @@
+package src
+
 // https://kotlinlang.org/docs/kotlin-tour-hello-world.html
 
-var customers = 10 // There are 10 customers in the queue
+var customers: Int = 10 // There are 10 customers in the queue
+
+/*
+// Variable declared without initialization
+val d: Int // -> Kotlin: Property must be initialized.
+
+// Variable initialized
+d = 3
+
+// Variable explicitly typed and initialized
+val e: String = "hello"
+
+*/
 
 fun main() {
     print("Hello, World!") // no new line
