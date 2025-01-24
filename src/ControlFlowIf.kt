@@ -1,7 +1,7 @@
 package src
 
 /*
-============== CONTROL FLOW ==============
+============== CONTROL FLOW | IF ==============
 https://kotlinlang.org/docs/kotlin-tour-control-flow.html
 
 If you have to choose between `if` and `when`, we recommend using `when` because it:
