@@ -13,7 +13,7 @@ If you have to choose between `if` and `when`, we recommend using `when` because
 fun main() {
     val firstTry: Int
     val secondTry: Int
-    val check: Boolean = true
+    val check = true
 
     if (check) {
         firstTry = 1
@@ -31,7 +31,8 @@ fun main() {
     println("secondTry: $secondTry")
 
     // if can be used as an expression
-    val a: Int = 1
-    val b: Int = 2
+    val a = 1
+    val b = 2
+    // Warning:(36, 17) Condition 'a > b' is always false -> I know - just an example!!!
     println(if (a > b) "a is greater than b" else "a is not greater than b")
 }
