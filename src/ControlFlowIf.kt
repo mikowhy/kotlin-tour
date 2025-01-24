@@ -33,6 +33,7 @@ fun main() {
     // if can be used as an expression
     val a = 1
     val b = 2
+
     // Warning:(36, 17) Condition 'a > b' is always false -> I know - just an example!!!
     println(if (a > b) "a is greater than b" else "a is not greater than b")
 }
