@@ -1,5 +1,8 @@
 package src
 
+// Fizz Buzz
+// https://kotlinlang.org/docs/kotlin-tour-control-flow.html#loops-exercise-2
+
 fun main() {
     val fizz = "fizz"
     val buzz = "buzz"
@@ -14,6 +17,10 @@ fun main() {
     }
 
     println("----------------------")
+
+    // In Kotlin, `it` is an implicit name for a single parameter in a lambda expression.
+    // When a lambda has only one parameter, you don't need to explicitly name `it`;
+    // you can use `it` instead
 
     println(
         (1..100).joinToString("\n") {
